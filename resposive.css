@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:48.75em){
+    #container{
+        position: relative;
+    }
+    #container .imagem-logo{
+        margin-bottom: 1em;
+    }
+    #container .imagem-logo img{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    #container .nav-bar{
+        background-color: transparent;
+        position: absolute;
+        top: 2.3em;
+        right: 0;
+        box-shadow: none;
+    }
+    #container .nav-bar li{
+        display: inline-block;
+    }
+    #container .nav-bar li a{
+        color: #713a84;
+        padding: 10px;
+        font-weight: 700;
+    }
+    #container .nav-bar li a:hover{
+        background-color: #e7d9fc;
+    }
+    #conteudo{
+        position: relative;
+    }
+    #conteudo .content-text{
+        background-color: #521a66;
+        padding: 2em;
+    }
+    #conteudo .content-text h1{
+        color: white;
+    }
+    #conteudo .cards{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        text-align: center;
+    }
+    #conteudo .cards-two-sec .content-card a{
+        position: absolute;
+        display: inline-block;
+        right: 1em;
+        top: 90%;
+        margin-bottom: 150px;
+    }
+    #conteudo .cards-two-sec .content-card {
+        display: block;
+        margin-bottom: 8em;
+    }
+    #conteudo .cards-two-sec .content-card .btn{
+        position: absolute;
+        display: inline-block;
+        right: 1em;
+        top: 103%;
+        margin-bottom: 150px;
+    }
+    .rodape{
+        margin-top: 12em;
+        position: relative;
+    }
+    .icons-logos{
+        position: absolute;
+        width: 100%;
+        margin-top: 2.5em;
+    }
+}
+
+
+@media screen and (min-width:62.5em){
+    #conteudo .content-text{
+        background-color: #521a66;
+        background-image: url('images/bg_topo_1198x670.jpg');
+        height: 30em;
+       padding-top: 10em;
+    }
+}
+
+@media screen and (min-width: 64em){
+    #conteudo .content-text{
+        background: #521a66 url('images/bg_topo_1600x1374.jpg');
+        height: 50em;
+        padding: 19em 10em 10em;
+        background-position: center center;
+    }
+    #conteudo .cards{
+      display: flex;
+      width: 100%;
+      text-align: center;
+      box-sizing: border-box;
+      margin: 0;
+    }
+    #conteudo .cards .cards-initial h2{
+        font-size: 1.1em;
+        padding-top: 1em;
+    }
+    #conteudo .cards .cards-initial p{
+        width: 100%;
+    }
+    #conteudo .cards-two-sec{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    #conteudo .cards-two-sec .content-card .btn{
+        position:static;
+        margin: 0;
+    }
+    #conteudo .cards-two-sec .content-card a{
+        position: static;
+    }
+    .icons-logos{
+        position: absolute;
+        top: 130em;
+        padding: 1em;
+    }
+    .rodape{
+        position: relative;
+        margin: 0;
+    }
+}
